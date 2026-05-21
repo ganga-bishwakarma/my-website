@@ -23,7 +23,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.gangabishwakarma.com.np/">
   <meta property="og:title" content="Ganga Bishwakarma | Podcast Host · Owner of Mery El's">
-  <meta property="og:description" content="Podcast host of RAW TALK, owner of Merry El's, co-founder of Mery & Khem Studio. A journey of resilience and creativity from Damak, Nepal.">
+  <meta property="og:description" content="Podcast host of RAW TALK, owner of Mery El's, co-founder of Mery & Khem Studio. A journey of resilience and creativity from Damak, Nepal.">
   <meta property="og:image" content="https://www.gangabishwakarma.com.np/images/og-cover.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -33,7 +33,7 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Ganga Bishwakarma | Podcast Host · Owner of Mery El's">
-  <meta name="twitter:description" content="Podcast host, founder, co-founder. A journey of resilience from Damak, Nepal.">
+  <meta name="twitter:description" content="Podcast host of RAW TALK, owner of Mery El's, co-founder of Mery &amp; Khem Studio.">
   <meta name="twitter:image" content="https://www.gangabishwakarma.com.np/images/og-cover.jpg">
 
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -81,22 +81,22 @@
   <style>
     :root {
       /* Merina personal brand - LOCKED */
-      --beige:    #F3D5B5;
-      --pink:     #FF8FA3;
-      --pink-deep: #E85878;
-      --pink-dim: rgba(255,143,163,0.18);
-      --charcoal: #2C2C2C;
-      --lavender: #CDB4DB;
-      --lavender-deep: #7A5C8F;
+      --beige:        #F3D5B5;
+      --pink:         #FF8FA3;
+      --pink-deep:    #E85878;
+      --pink-dim:     rgba(255,143,163,0.18);
+      --charcoal:     #2C2C2C;
+      --lavender:     #CDB4DB;
+      --lavender-deep:#7A5C8F;
       --lavender-dim: rgba(205,180,219,0.30);
-      --ivory:    #FAF9F6;
+      --ivory:        #FAF9F6;
 
-      /* Mery El's brand - LOCKED */
+      /* Mery El's brand */
       --me-gold:  #C5A46D;
       --me-cream: #F8F2E8;
       --me-blush: #E8C9B5;
 
-      /* Mery & Khem studio brand - LOCKED */
+      /* Mery & Khem Studio brand */
       --studio-sindoor:  #B82820;
       --studio-indigo:   #2D4A8E;
       --studio-marigold: #E8A33D;
@@ -105,35 +105,25 @@
       --studio-body:     #1A1A1A;
       --studio-stone:    #8A8A82;
 
-      /* Hunate Movement - LOCKED */
+      /* Hunate Movement brand */
       --hunate-prana:    #B83A2D;
       --hunate-akasha:   #2D5A8E;
       --hunate-manjusha: #D9C896;
 
-      /* Spacing (golden ratio inspired: 1, 1.618, 2.618, 4.236, 6.854) */
-      --sp-sm: 6px; --sp-md: 10px; --sp-lg: 16px;
-      --sp-xl: 26px; --sp-2xl: 42px; --sp-3xl: 68px;
-      --sp-4xl: 110px; --sp-5xl: 178px;
+      /* Spacing - tightened (was 178/110/68, now 120/80/56) */
+      --sp-sm: 6px;  --sp-md: 10px; --sp-lg: 16px;
+      --sp-xl: 24px; --sp-2xl: 40px; --sp-3xl: 56px;
+      --sp-4xl: 80px; --sp-5xl: 120px;
       --header-h: 70px;
       --ease: cubic-bezier(0.25,0.46,0.45,0.94);
 
-      /* Rounded corners (subtle, like old version) */
-      --r-sm: 4px;
-      --r-md: 8px;
-      --r-lg: 14px;
-      --r-pill: 999px;
+      /* Radius */
+      --r-sm: 4px; --r-md: 8px; --r-lg: 14px; --r-pill: 999px;
     }
 
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
     html { scroll-behavior: smooth; font-size: 16px; }
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: var(--beige);
-      color: var(--charcoal);
-      line-height: 1.8;
-      overflow-x: hidden;
-      -webkit-font-smoothing: antialiased;
-    }
+    body { font-family: 'Poppins', sans-serif; background: var(--beige); color: var(--charcoal); line-height: 1.75; overflow-x: hidden; -webkit-font-smoothing: antialiased; }
     img { display: block; max-width: 100%; }
     a { color: inherit; }
     ul { list-style: none; }
@@ -155,14 +145,14 @@
     .to-top:hover svg { fill: #fff; }
     .to-top svg { width: 16px; height: 16px; fill: var(--pink); transition: fill 0.3s; }
 
-    /* Containers (golden ratio width: ~1100 / 1.618 ≈ 680 for narrow) */
+    /* Containers */
     .container { max-width: 1100px; margin: 0 auto; padding: 0 var(--sp-2xl); }
-    .container-narrow { max-width: 680px; margin: 0 auto; padding: 0 var(--sp-2xl); }
+    .container-narrow { max-width: 720px; margin: 0 auto; padding: 0 var(--sp-2xl); }
     .section-pad { padding: var(--sp-5xl) 0; }
 
     /* Typography */
     h1, h2, h3, h4 { font-family: 'Playfair Display', serif; font-weight: 600; line-height: 1.2; color: var(--charcoal); }
-    .label { font-family: 'Poppins', sans-serif; font-size: 0.72rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--pink-deep); }
+    .label { font-family: 'Poppins', sans-serif; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: var(--pink-deep); }
     .label-line { display: inline-flex; align-items: center; gap: var(--sp-lg); }
     .label-line::before { content: ''; width: 32px; height: 1px; background: var(--pink); }
     .h-xl { font-size: clamp(2.6rem, 7vw, 4.6rem); font-weight: 700; line-height: 1.05; letter-spacing: -0.01em; }
@@ -171,20 +161,10 @@
     em.pink { color: var(--pink-deep); font-style: italic; }
     em.lav  { color: var(--lavender-deep); font-style: italic; }
 
-    /* Floral decorative divider */
-    .floral-divider {
-      display: flex; align-items: center; justify-content: center;
-      gap: var(--sp-lg); margin: var(--sp-3xl) auto;
-      max-width: 280px;
-    }
-    .floral-divider::before, .floral-divider::after {
-      content: ''; flex: 1; height: 1px;
-      background: linear-gradient(to right, transparent, rgba(255,143,163,0.5), transparent);
-    }
-    .floral-divider span {
-      color: var(--pink); font-size: 0.9rem; opacity: 0.85;
-      transform: translateY(-1px);
-    }
+    /* Floral divider */
+    .floral-divider { display: flex; align-items: center; justify-content: center; gap: var(--sp-lg); margin: var(--sp-2xl) auto; max-width: 240px; }
+    .floral-divider::before, .floral-divider::after { content: ''; flex: 1; height: 1px; background: linear-gradient(to right, transparent, rgba(255,143,163,0.5), transparent); }
+    .floral-divider span { color: var(--pink); font-size: 0.85rem; opacity: 0.85; transform: translateY(-1px); }
 
     /* Header */
     header.site { position: fixed; top: 0; width: 100%; z-index: 1000; height: var(--header-h); background: rgba(243,213,181,0.92); backdrop-filter: blur(16px) saturate(180%); -webkit-backdrop-filter: blur(16px) saturate(180%); border-bottom: 1px solid rgba(255,143,163,0.18); display: flex; align-items: center; transition: background 0.3s, box-shadow 0.3s; }
@@ -192,19 +172,14 @@
     .nav { display: flex; justify-content: space-between; align-items: center; width: 100%; }
     .brand { font-family: 'Playfair Display', serif; font-size: 1.18rem; font-weight: 700; color: var(--charcoal); text-decoration: none; letter-spacing: 0.01em; }
     .brand em { color: var(--pink-deep); font-style: italic; font-weight: 500; }
-    .nav-links { display: flex; align-items: center; gap: var(--sp-2xl); }
-    .nav-links a { text-decoration: none; color: var(--charcoal); font-size: 0.92rem; font-weight: 400; position: relative; transition: color 0.3s; }
+    .nav-links { display: flex; align-items: center; gap: var(--sp-xl); }
+    .nav-links a { text-decoration: none; color: var(--charcoal); font-size: 0.9rem; font-weight: 400; position: relative; transition: color 0.3s; }
     .nav-links a::after { content: ''; position: absolute; bottom: -3px; left: 0; width: 0; height: 1px; background: var(--pink); transition: width 0.35s var(--ease); }
     .nav-links a:hover { color: var(--pink-deep); }
     .nav-links a:hover::after { width: 100%; }
     .nav-links a.active { color: var(--pink-deep); font-weight: 500; }
     .nav-links a.active::after { width: 100%; }
-    .nav-links a.book {
-      background: var(--charcoal); color: var(--ivory);
-      padding: 9px 20px; font-size: 0.84rem;
-      border-radius: var(--r-md);
-      transition: background 0.3s, transform 0.2s;
-    }
+    .nav-links a.book { background: var(--charcoal); color: var(--ivory); padding: 9px 20px; font-size: 0.84rem; border-radius: var(--r-md); transition: background 0.3s, transform 0.2s; }
     .nav-links a.book:hover { background: var(--pink-deep); transform: translateY(-1px); }
     .nav-links a.book::after { display: none; }
 
@@ -218,324 +193,157 @@
     /* Mobile nav */
     .mobile-nav { display: none; position: fixed; top: var(--header-h); left: 0; width: 100%; height: calc(100vh - var(--header-h)); background: rgba(243,213,181,0.99); backdrop-filter: blur(20px); z-index: 999; flex-direction: column; align-items: center; justify-content: center; gap: var(--sp-xl); }
     .mobile-nav.open { display: flex; }
-    .mobile-nav a { font-size: 1.6rem; font-family: 'Playfair Display', serif; text-decoration: none; color: var(--charcoal); font-weight: 600; transition: color 0.3s; }
+    .mobile-nav a { font-size: 1.5rem; font-family: 'Playfair Display', serif; text-decoration: none; color: var(--charcoal); font-weight: 600; transition: color 0.3s; }
     .mobile-nav a:hover { color: var(--pink-deep); }
-    .mobile-nav a.book {
-      background: var(--charcoal); color: var(--ivory);
-      padding: 12px 28px; font-size: 1rem;
-      font-family: 'Poppins', sans-serif; font-weight: 500;
-      border-radius: var(--r-md);
-    }
+    .mobile-nav a.book { background: var(--charcoal); color: var(--ivory); padding: 12px 28px; font-size: 1rem; font-family: 'Poppins', sans-serif; font-weight: 500; border-radius: var(--r-md); }
 
     /* Hero */
     #hero { min-height: 100vh; padding-top: var(--header-h); display: flex; align-items: center; position: relative; overflow: hidden; background: var(--beige); }
-    .hero-content { position: relative; z-index: 2; padding: var(--sp-4xl) 0 var(--sp-5xl); text-align: center; }
-    .hero-photo {
-      width: 200px; height: 200px; border-radius: 50%;
-      object-fit: cover; margin: 0 auto var(--sp-xl);
-      border: 4px solid var(--pink);
-      box-shadow: 0 16px 44px rgba(255,143,163,0.28), 0 0 0 12px rgba(255,143,163,0.08);
-    }
-    .hero-name {
-      font-family: 'Playfair Display', serif; font-weight: 700;
-      font-size: clamp(2.4rem, 6.6vw, 4.4rem);
-      line-height: 1.1; color: var(--charcoal);
-      margin-bottom: var(--sp-md); letter-spacing: -0.01em;
-    }
+    .hero-content { position: relative; z-index: 2; padding: var(--sp-4xl) 0 var(--sp-4xl); text-align: center; }
+    .hero-photo { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin: 0 auto var(--sp-xl); border: 4px solid var(--pink); box-shadow: 0 16px 44px rgba(255,143,163,0.28), 0 0 0 12px rgba(255,143,163,0.08); }
+    .hero-name { font-family: 'Playfair Display', serif; font-weight: 700; font-size: clamp(2.4rem, 6.6vw, 4.4rem); line-height: 1.1; color: var(--charcoal); margin-bottom: var(--sp-md); letter-spacing: -0.01em; }
     .hero-name em { color: var(--pink-deep); font-style: italic; font-weight: 500; }
-    .hero-cursive {
-      font-family: 'Passions Conflict', cursive;
-      font-size: clamp(3rem, 8vw, 5rem);
-      color: var(--pink-deep); line-height: 1;
-      margin: var(--sp-md) 0 var(--sp-xl);
-      font-weight: 400;
-    }
-    .hero-pillars {
-      font-size: 0.92rem; color: var(--charcoal);
-      letter-spacing: 0.22em; text-transform: uppercase;
-      margin-bottom: var(--sp-md); font-weight: 500;
-    }
+    .hero-cursive { font-family: 'Passions Conflict', cursive; font-size: clamp(3rem, 8vw, 5rem); color: var(--pink-deep); line-height: 1; margin: var(--sp-md) 0 var(--sp-lg); font-weight: 400; }
+    .hero-pillars { font-size: 0.88rem; color: var(--charcoal); letter-spacing: 0.22em; text-transform: uppercase; margin-bottom: var(--sp-sm); font-weight: 500; }
     .hero-pillars span { color: var(--pink-deep); margin: 0 6px; }
-    .hero-roles {
-      font-family: 'Playfair Display', serif; font-style: italic;
-      font-size: 0.98rem; color: var(--charcoal); opacity: 0.85;
-      max-width: 560px; margin: 0 auto; line-height: 1.7;
-    }
+    .hero-roles { font-family: 'Playfair Display', serif; font-style: italic; font-size: 0.96rem; color: var(--charcoal); opacity: 0.85; max-width: 540px; margin: 0 auto var(--sp-xl); line-height: 1.7; }
     .hero-roles span { color: var(--pink-deep); font-style: normal; margin: 0 6px; }
-    .scroll-hint {
-      position: absolute; bottom: 22px; left: 50%;
-      transform: translateX(-50%);
-      display: flex; flex-direction: column; align-items: center; gap: var(--sp-sm);
-      opacity: 0.55;
-    }
-    .scroll-hint span {
-      font-size: 0.68rem; letter-spacing: 0.22em;
-      color: var(--charcoal); text-transform: uppercase; font-weight: 500;
-    }
-    .scroll-arrow { width: 1px; height: 36px; background: linear-gradient(to bottom, var(--pink), transparent); }
+    .hero-cta { display: inline-flex; align-items: center; gap: var(--sp-md); background: var(--charcoal); color: var(--ivory); padding: 15px 30px; font-family: 'Poppins', sans-serif; font-size: 0.94rem; font-weight: 500; text-decoration: none; border-radius: var(--r-md); border: 1px solid var(--charcoal); transition: background 0.3s, border-color 0.3s, transform 0.2s, box-shadow 0.3s; margin-top: var(--sp-sm); }
+    .hero-cta:hover { background: var(--pink-deep); border-color: var(--pink-deep); transform: translateY(-2px); box-shadow: 0 14px 34px rgba(232,88,120,0.28); }
+    .hero-cta svg { width: 18px; height: 18px; fill: currentColor; }
+    .scroll-hint { position: absolute; bottom: 22px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: var(--sp-sm); opacity: 0.55; }
+    .scroll-hint span { font-size: 0.66rem; letter-spacing: 0.22em; color: var(--charcoal); text-transform: uppercase; font-weight: 500; }
+    .scroll-arrow { width: 1px; height: 32px; background: linear-gradient(to bottom, var(--pink), transparent); }
 
-    /* Story */
-    #story { background: var(--ivory); }
-    .story-head { text-align: center; margin-bottom: var(--sp-4xl); }
-    .story-head .label { display: block; margin-bottom: var(--sp-md); }
-    .story-block { max-width: 640px; margin: 0 auto; }
-    .story-block h2 {
-      font-size: clamp(1.7rem, 3.8vw, 2.4rem);
-      margin-bottom: var(--sp-xl);
-      position: relative; padding-left: var(--sp-xl);
-    }
-    .story-block h2::before {
-      content: ''; position: absolute; left: 0; top: 14px;
-      width: 10px; height: 10px; background: var(--pink); border-radius: 50%;
-    }
-    .story-block h2 .sub {
-      display: block; font-family: 'Passions Conflict', cursive;
-      font-weight: 400; font-size: 1.7rem; color: var(--pink-deep);
-      line-height: 1; margin-top: 4px; padding-left: 0;
-      font-style: normal;
-    }
-    .story-block p {
-      font-size: 1.04rem; line-height: 1.9; color: var(--charcoal);
-      margin-bottom: var(--sp-xl);
-    }
-    .story-block p strong { color: var(--charcoal); font-weight: 600; }
-    .story-block a {
-      color: var(--pink-deep); text-decoration: none;
-      border-bottom: 1px solid rgba(232,88,120,0.4); padding-bottom: 1px;
-      transition: color 0.3s, border-color 0.3s;
-    }
-    .story-block a:hover { color: var(--charcoal); border-color: var(--charcoal); }
-    .story-quote {
-      background: var(--pink-dim);
-      border-left: 3px solid var(--pink);
-      border-radius: 0 var(--r-md) var(--r-md) 0;
-      padding: var(--sp-xl) var(--sp-2xl);
-      margin: var(--sp-xl) 0;
-      font-style: italic; font-family: 'Playfair Display', serif;
-      font-size: 1.06rem; line-height: 1.8; color: var(--charcoal);
-    }
-
-    /* Inline story CTA - centered button */
-    .story-cta-wrap { text-align: center; margin: var(--sp-2xl) 0; }
-    .story-cta {
-      display: inline-flex; align-items: center; gap: var(--sp-md);
-      padding: 12px 26px; text-decoration: none;
-      font-family: 'Poppins', sans-serif; font-size: 0.92rem; font-weight: 500;
-      border: 1px solid; border-radius: var(--r-md);
-      transition: transform 0.3s, background 0.3s, color 0.3s, box-shadow 0.3s;
-    }
-    .story-cta svg { width: 18px; height: 18px; fill: currentColor; }
-    .story-cta.shop {
-      background: var(--me-gold); color: #fff; border-color: var(--me-gold);
-    }
-    .story-cta.shop:hover {
-      background: var(--charcoal); border-color: var(--charcoal);
-      transform: translateY(-2px); box-shadow: 0 12px 28px rgba(0,0,0,0.12);
-    }
-    .story-cta.watch {
-      background: var(--lavender-deep); color: #fff; border-color: var(--lavender-deep);
-    }
-    .story-cta.watch:hover {
-      background: var(--charcoal); border-color: var(--charcoal);
-      transform: translateY(-2px); box-shadow: 0 12px 28px rgba(122,92,143,0.28);
-    }
-    .story-cta.studio {
-      background: var(--studio-sindoor); color: #fff; border-color: var(--studio-sindoor);
-    }
-    .story-cta.studio:hover {
-      background: var(--charcoal); border-color: var(--charcoal);
-      transform: translateY(-2px); box-shadow: 0 12px 28px rgba(184,40,32,0.22);
-    }
-
-    /* Studio section - Mery & Khem brand */
+    /* Studio - PROMOTED to section 2 */
     #studio { background: var(--studio-cream); padding: var(--sp-5xl) 0; position: relative; font-family: 'Inter', sans-serif; color: var(--studio-body); }
     #studio::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--studio-marigold); }
     #studio h1, #studio h2, #studio h3, #studio h4 { font-family: 'Fraunces', serif; color: var(--studio-sindoor); font-weight: 600; }
     .studio-head { text-align: center; margin-bottom: var(--sp-3xl); }
-    .studio-logo { max-width: 360px; margin: 0 auto var(--sp-xl); display: block; }
-    .studio-tag { font-family: 'Fraunces', serif; font-style: italic; font-size: 1.25rem; color: var(--studio-indigo); font-weight: 500; margin-bottom: var(--sp-md); }
-    .studio-sub { font-size: 1.02rem; color: var(--studio-stone); font-weight: 500; margin-bottom: var(--sp-2xl); font-style: italic; }
-    .studio-marigold-rule { width: 64px; height: 2px; background: var(--studio-marigold); margin: var(--sp-xl) auto; border-radius: 2px; }
+    .studio-logo { max-width: 340px; margin: 0 auto var(--sp-lg); display: block; }
+    .studio-tag { font-family: 'Fraunces', serif; font-style: italic; font-size: 1.22rem; color: var(--studio-indigo); font-weight: 500; margin-bottom: var(--sp-sm); }
+    .studio-sub { font-size: 1rem; color: var(--studio-stone); font-weight: 500; margin-bottom: var(--sp-xl); font-style: italic; }
+    .studio-marigold-rule { width: 60px; height: 2px; background: var(--studio-marigold); margin: var(--sp-lg) auto; border-radius: 2px; }
     .studio-intro { max-width: 680px; margin: 0 auto; }
-    .studio-intro p { font-size: 1.04rem; line-height: 1.85; color: var(--studio-body); margin-bottom: var(--sp-xl); }
+    .studio-intro p { font-size: 1.02rem; line-height: 1.85; color: var(--studio-body); margin-bottom: var(--sp-lg); }
     .studio-intro p strong { color: var(--studio-sindoor); font-weight: 600; }
-    .studio-tagline-strong { font-family: 'Fraunces', serif; font-style: italic; font-size: 1.32rem; text-align: center; color: var(--studio-indigo); margin: var(--sp-3xl) 0; padding: var(--sp-xl) 0; border-top: 1px solid rgba(184,40,32,0.15); border-bottom: 1px solid rgba(184,40,32,0.15); }
-    .categories-head { text-align: center; margin: var(--sp-4xl) 0 var(--sp-2xl); }
-    .categories-head h3 { font-size: 1.8rem; margin-bottom: var(--sp-md); }
-    .categories-head p { color: var(--studio-stone); font-size: 0.98rem; max-width: 640px; margin: 0 auto; }
-    .cat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--sp-lg); margin-top: var(--sp-2xl); }
-    .cat-card {
-      background: var(--studio-offwhite); padding: var(--sp-xl);
-      border: 1px solid rgba(184,40,32,0.08);
-      border-radius: var(--r-md);
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
+    .studio-tagline-strong { font-family: 'Fraunces', serif; font-style: italic; font-size: 1.28rem; text-align: center; color: var(--studio-indigo); margin: var(--sp-3xl) 0; padding: var(--sp-lg) 0; border-top: 1px solid rgba(184,40,32,0.15); border-bottom: 1px solid rgba(184,40,32,0.15); }
+    .categories-head { text-align: center; margin: var(--sp-3xl) 0 var(--sp-xl); }
+    .categories-head h3 { font-size: 1.7rem; margin-bottom: var(--sp-sm); }
+    .categories-head p { color: var(--studio-stone); font-size: 0.96rem; max-width: 620px; margin: 0 auto; }
+    .cat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--sp-lg); margin-top: var(--sp-xl); }
+    .cat-card { background: var(--studio-offwhite); padding: var(--sp-lg) var(--sp-xl); border: 1px solid rgba(184,40,32,0.08); border-radius: var(--r-md); transition: transform 0.3s, box-shadow 0.3s; }
     .cat-card:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(184,40,32,0.08); }
-    .cat-num { font-family: 'Fraunces', serif; font-size: 0.95rem; color: var(--studio-marigold); font-weight: 600; margin-bottom: var(--sp-sm); }
-    .cat-name { font-family: 'Fraunces', serif; font-size: 1.1rem; color: var(--studio-sindoor); font-weight: 600; margin-bottom: var(--sp-md); line-height: 1.3; }
-    .cat-desc { font-size: 0.88rem; color: var(--studio-body); line-height: 1.65; }
-    .how-we-work {
-      background: var(--studio-offwhite);
-      border-left: 3px solid var(--studio-marigold);
-      border-radius: 0 var(--r-md) var(--r-md) 0;
-      padding: var(--sp-2xl);
-      margin: var(--sp-4xl) 0 var(--sp-3xl);
-    }
-    .how-we-work h3 { font-size: 1.5rem; margin-bottom: var(--sp-xl); color: var(--studio-sindoor); }
-    .how-we-work-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: var(--sp-2xl); }
-    .how-item h4 { font-size: 1.04rem; margin-bottom: var(--sp-sm); color: var(--studio-indigo); font-weight: 600; }
-    .how-item p { font-size: 0.92rem; line-height: 1.7; color: var(--studio-body); }
+    .cat-num { font-family: 'Fraunces', serif; font-size: 0.92rem; color: var(--studio-marigold); font-weight: 600; margin-bottom: var(--sp-sm); }
+    .cat-name { font-family: 'Fraunces', serif; font-size: 1.08rem; color: var(--studio-sindoor); font-weight: 600; margin-bottom: var(--sp-sm); line-height: 1.3; }
+    .cat-desc { font-size: 0.86rem; color: var(--studio-body); line-height: 1.65; }
+    .how-we-work { background: var(--studio-offwhite); border-left: 3px solid var(--studio-marigold); border-radius: 0 var(--r-md) var(--r-md) 0; padding: var(--sp-xl) var(--sp-2xl); margin: var(--sp-3xl) 0; }
+    .how-we-work h3 { font-size: 1.4rem; margin-bottom: var(--sp-lg); color: var(--studio-sindoor); }
+    .how-we-work-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: var(--sp-xl); }
+    .how-item h4 { font-size: 1rem; margin-bottom: var(--sp-sm); color: var(--studio-indigo); font-weight: 600; }
+    .how-item p { font-size: 0.9rem; line-height: 1.7; color: var(--studio-body); }
+
+    /* Studio CTAs - rearranged: Book a Call on its own row, WhatsApps together below */
     .studio-cta { text-align: center; margin-top: var(--sp-3xl); }
-    .studio-cta h3 { font-size: 1.6rem; margin-bottom: var(--sp-xl); }
-    .studio-cta p.lead-text { font-size: 1rem; color: var(--studio-stone); max-width: 560px; margin: 0 auto var(--sp-xl); }
-    .studio-cta-buttons { display: flex; justify-content: center; gap: var(--sp-lg); flex-wrap: wrap; }
-    .studio-cta-buttons a {
-      display: inline-flex; align-items: center; gap: var(--sp-md);
-      padding: 14px 26px; font-family: 'Inter', sans-serif;
-      font-size: 0.95rem; font-weight: 500; text-decoration: none;
-      border-radius: var(--r-md);
-      transition: transform 0.2s, background 0.3s, box-shadow 0.3s;
-    }
-    .studio-cta-buttons a svg { width: 20px; height: 20px; fill: currentColor; }
-    .studio-cta-wa { background: #25D366; color: #fff; border: 1px solid #25D366; }
+    .studio-cta h3 { font-size: 1.5rem; margin-bottom: var(--sp-md); }
+    .studio-cta p.lead-text { font-size: 0.98rem; color: var(--studio-stone); max-width: 540px; margin: 0 auto var(--sp-xl); }
+    .studio-cta-primary-row { display: flex; justify-content: center; margin-bottom: var(--sp-md); }
+    .studio-cta-wa-row { display: flex; justify-content: center; gap: var(--sp-md); flex-wrap: wrap; }
+    .studio-cta-book, .studio-cta-wa { display: inline-flex; align-items: center; gap: var(--sp-md); padding: 14px 28px; font-family: 'Inter', sans-serif; font-size: 0.95rem; font-weight: 500; text-decoration: none; border-radius: var(--r-md); border: 1px solid; transition: transform 0.2s, background 0.3s, border-color 0.3s, box-shadow 0.3s; }
+    .studio-cta-book svg, .studio-cta-wa svg { width: 20px; height: 20px; fill: currentColor; }
+    .studio-cta-book { background: var(--studio-sindoor); color: #fff; border-color: var(--studio-sindoor); }
+    .studio-cta-book:hover { background: var(--studio-indigo); border-color: var(--studio-indigo); transform: translateY(-2px); box-shadow: 0 14px 34px rgba(184,40,32,0.28); }
+    .studio-cta-wa { background: #25D366; color: #fff; border-color: #25D366; }
     .studio-cta-wa:hover { background: #1da851; border-color: #1da851; transform: translateY(-2px); box-shadow: 0 14px 34px rgba(37,211,102,0.30); }
-    .studio-cta-book {
-      background: var(--studio-sindoor); color: #fff;
-      border: 1px solid var(--studio-sindoor);
-    }
-    .studio-cta-book:hover {
-      background: var(--studio-indigo); border-color: var(--studio-indigo);
-      transform: translateY(-2px); box-shadow: 0 14px 34px rgba(184,40,32,0.28);
-    }
+
     .studio-cross-wrap { margin-top: var(--sp-2xl); text-align: center; }
-    .studio-cross-wrap .lead { font-size: 0.95rem; color: var(--studio-stone); margin-bottom: var(--sp-lg); font-style: italic; font-family: 'Fraunces', serif; }
-    .studio-cross-link {
-      display: inline-flex; align-items: center; gap: var(--sp-2xl);
-      padding: 22px 30px; background: var(--studio-offwhite);
-      border: 1px solid var(--studio-indigo);
-      border-radius: var(--r-md);
-      text-decoration: none; transition: all 0.35s; max-width: 520px;
-    }
+    .studio-cross-wrap .lead { font-size: 0.92rem; color: var(--studio-stone); margin-bottom: var(--sp-md); font-style: italic; font-family: 'Fraunces', serif; }
+    .studio-cross-link { display: inline-flex; align-items: center; gap: var(--sp-2xl); padding: 20px 28px; background: var(--studio-offwhite); border: 1px solid var(--studio-indigo); border-radius: var(--r-md); text-decoration: none; transition: all 0.35s; max-width: 520px; }
     .studio-cross-link:hover { background: var(--studio-indigo); transform: translateY(-3px); box-shadow: 0 22px 50px rgba(45,74,142,0.22); }
     .cross-text { text-align: left; }
-    .cross-label { display: block; font-family: 'Inter', sans-serif; font-size: 0.68rem; letter-spacing: 0.18em; color: var(--studio-marigold); text-transform: uppercase; font-weight: 600; margin-bottom: 4px; transition: color 0.3s; }
-    .cross-name { display: block; font-family: 'Fraunces', serif; font-size: 1.18rem; color: var(--studio-sindoor); font-weight: 600; line-height: 1.2; transition: color 0.3s; }
-    .cross-tag { display: block; font-family: 'Inter', sans-serif; font-size: 0.82rem; color: var(--studio-stone); margin-top: 4px; transition: color 0.3s; }
-    .cross-arrow { font-family: 'Fraunces', serif; font-size: 1.6rem; color: var(--studio-indigo); transition: transform 0.35s, color 0.3s; line-height: 1; }
+    .cross-label { display: block; font-family: 'Inter', sans-serif; font-size: 0.66rem; letter-spacing: 0.18em; color: var(--studio-marigold); text-transform: uppercase; font-weight: 600; margin-bottom: 4px; transition: color 0.3s; }
+    .cross-name { display: block; font-family: 'Fraunces', serif; font-size: 1.16rem; color: var(--studio-sindoor); font-weight: 600; line-height: 1.2; transition: color 0.3s; }
+    .cross-tag { display: block; font-family: 'Inter', sans-serif; font-size: 0.8rem; color: var(--studio-stone); margin-top: 4px; transition: color 0.3s; }
+    .cross-arrow { font-family: 'Fraunces', serif; font-size: 1.5rem; color: var(--studio-indigo); transition: transform 0.35s, color 0.3s; line-height: 1; }
     .studio-cross-link:hover .cross-name  { color: var(--studio-offwhite); }
     .studio-cross-link:hover .cross-label { color: var(--studio-marigold); }
     .studio-cross-link:hover .cross-tag   { color: rgba(255,255,255,0.85); }
     .studio-cross-link:hover .cross-arrow { transform: translateX(6px); color: var(--studio-offwhite); }
 
-    /* Merry El's - simplified */
+    /* Mery El's - simplified visual */
     #meryels { background: var(--me-cream); padding: var(--sp-5xl) 0; text-align: center; }
-    .me-logo { max-width: 200px; margin: 0 auto var(--sp-lg); display: block; }
-    .me-caption {
-      font-family: 'Playfair Display', serif; font-style: italic;
-      font-size: 1.1rem; color: var(--me-gold);
-      margin-bottom: var(--sp-2xl); letter-spacing: 0.04em;
-    }
-    .me-divider { width: 50px; height: 1px; background: var(--me-gold); margin: var(--sp-xl) auto var(--sp-2xl); }
-    .me-intro {
-      max-width: 540px; margin: 0 auto var(--sp-2xl);
-      font-size: 1rem; line-height: 1.85; color: var(--charcoal);
-    }
-    .me-cta {
-      display: inline-flex; align-items: center; gap: var(--sp-md);
-      background: var(--me-gold); color: #fff;
-      padding: 14px 28px; font-family: 'Poppins', sans-serif;
-      font-size: 0.92rem; font-weight: 500; text-decoration: none;
-      border: 1px solid var(--me-gold); border-radius: var(--r-md);
-      transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
-    }
+    .me-logo { max-width: 190px; margin: 0 auto var(--sp-md); display: block; }
+    .me-caption { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.08rem; color: var(--me-gold); margin-bottom: var(--sp-xl); letter-spacing: 0.04em; }
+    .me-divider { width: 48px; height: 1px; background: var(--me-gold); margin: var(--sp-lg) auto; }
+    .me-intro { max-width: 520px; margin: 0 auto var(--sp-xl); font-size: 0.98rem; line-height: 1.85; color: var(--charcoal); }
+    .me-cta { display: inline-flex; align-items: center; gap: var(--sp-md); background: var(--me-gold); color: #fff; padding: 13px 26px; font-family: 'Poppins', sans-serif; font-size: 0.92rem; font-weight: 500; text-decoration: none; border: 1px solid var(--me-gold); border-radius: var(--r-md); transition: background 0.3s, transform 0.2s, box-shadow 0.3s; }
     .me-cta:hover { background: var(--charcoal); border-color: var(--charcoal); transform: translateY(-2px); box-shadow: 0 14px 30px rgba(0,0,0,0.10); }
     .me-cta svg { width: 18px; height: 18px; fill: currentColor; }
-    .me-socials { display: flex; justify-content: center; gap: var(--sp-md); flex-wrap: wrap; margin-top: var(--sp-xl); }
-    .me-socials a {
-      display: inline-flex; align-items: center; gap: var(--sp-sm);
-      padding: 10px 18px; background: #fff;
-      border: 1px solid rgba(197,164,109,0.30);
-      border-radius: var(--r-md);
-      color: var(--charcoal); text-decoration: none; font-size: 0.82rem;
-      transition: 0.3s;
-    }
+    .me-socials { display: flex; justify-content: center; gap: var(--sp-md); flex-wrap: wrap; margin-top: var(--sp-lg); }
+    .me-socials a { display: inline-flex; align-items: center; gap: var(--sp-sm); padding: 9px 16px; background: #fff; border: 1px solid rgba(197,164,109,0.30); border-radius: var(--r-md); color: var(--charcoal); text-decoration: none; font-size: 0.8rem; transition: 0.3s; }
     .me-socials a:hover { transform: translateY(-2px); }
     .me-socials a svg { width: 14px; height: 14px; fill: currentColor; }
     .me-socials a[data-platform="facebook"]:hover  { background: #1877F2; color: #fff; border-color: #1877F2; }
     .me-socials a[data-platform="instagram"]:hover { background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF); color: #fff; border-color: #DD2A7B; }
     .me-socials a[data-platform="tiktok"]:hover    { background: #000; color: #fff; border-color: #000; }
 
-    /* Hunate Movement - last section, brief, philosophical */
-    #movement { background: var(--ivory); padding: var(--sp-5xl) 0; text-align: center; }
-    .hunate-mini-logo { max-width: 140px; margin: 0 auto var(--sp-xl); display: block; opacity: 0.95; }
-    .hunate-mini-label { font-family: 'Poppins', sans-serif; font-size: 0.72rem; letter-spacing: 0.2em; color: var(--hunate-prana); text-transform: uppercase; font-weight: 500; margin-bottom: var(--sp-md); }
-    .hunate-mini-title { font-family: 'Playfair Display', serif; font-weight: 700; font-size: clamp(1.8rem, 4vw, 2.6rem); margin-bottom: var(--sp-xl); }
+    /* Story - compressed to 3 chapters */
+    #story { background: var(--ivory); padding: var(--sp-5xl) 0; }
+    .story-head { text-align: center; margin-bottom: var(--sp-2xl); }
+    .story-head .label { display: block; margin-bottom: var(--sp-sm); }
+    .story-head h2 { font-size: clamp(2rem, 4.4vw, 2.8rem); }
+    .story-head h2 em { color: var(--pink-deep); font-style: italic; font-weight: 500; }
+    .story-block { max-width: 640px; margin: 0 auto; }
+    .story-block h3 { font-size: clamp(1.5rem, 3.4vw, 2rem); margin-bottom: var(--sp-lg); position: relative; padding-left: var(--sp-lg); }
+    .story-block h3::before { content: ''; position: absolute; left: 0; top: 12px; width: 10px; height: 10px; background: var(--pink); border-radius: 50%; }
+    .story-block p { font-size: 1.02rem; line-height: 1.9; color: var(--charcoal); margin-bottom: var(--sp-lg); }
+    .story-block p strong { color: var(--charcoal); font-weight: 600; }
+    .story-block a { color: var(--pink-deep); text-decoration: none; border-bottom: 1px solid rgba(232,88,120,0.4); padding-bottom: 1px; transition: color 0.3s, border-color 0.3s; }
+    .story-block a:hover { color: var(--charcoal); border-color: var(--charcoal); }
+    .story-quote { background: var(--pink-dim); border-left: 3px solid var(--pink); border-radius: 0 var(--r-md) var(--r-md) 0; padding: var(--sp-lg) var(--sp-xl); margin: var(--sp-lg) 0; font-style: italic; font-family: 'Playfair Display', serif; font-size: 1rem; line-height: 1.75; color: var(--charcoal); }
+
+    /* RAW TALK - own section, Lavender */
+    #rawtalk { background: var(--ivory); padding: var(--sp-5xl) 0; text-align: center; border-top: 1px solid rgba(205,180,219,0.30); }
+    .rt-label { font-family: 'Poppins', sans-serif; font-size: 0.7rem; letter-spacing: 0.22em; color: var(--lavender-deep); text-transform: uppercase; font-weight: 600; margin-bottom: var(--sp-md); }
+    .rt-title { font-family: 'Playfair Display', serif; font-weight: 700; font-size: clamp(2.4rem, 5.2vw, 3.4rem); color: var(--charcoal); margin-bottom: var(--sp-xs); letter-spacing: 0.02em; }
+    .rt-subtitle { font-family: 'Passions Conflict', cursive; font-size: clamp(2rem, 5vw, 2.8rem); color: var(--lavender-deep); line-height: 1; margin-bottom: var(--sp-xl); display: block; }
+    .rt-body { max-width: 600px; margin: 0 auto var(--sp-xl); font-size: 1rem; line-height: 1.85; color: var(--charcoal); }
+    .rt-cta { display: inline-flex; align-items: center; gap: var(--sp-md); background: var(--lavender-deep); color: #fff; padding: 13px 28px; font-family: 'Poppins', sans-serif; font-size: 0.94rem; font-weight: 500; text-decoration: none; border: 1px solid var(--lavender-deep); border-radius: var(--r-md); transition: background 0.3s, transform 0.2s, box-shadow 0.3s; }
+    .rt-cta:hover { background: var(--charcoal); border-color: var(--charcoal); transform: translateY(-2px); box-shadow: 0 14px 28px rgba(122,92,143,0.30); }
+    .rt-cta svg { width: 18px; height: 18px; fill: currentColor; }
+
+    /* Hunate Movement */
+    #movement { background: var(--beige); padding: var(--sp-5xl) 0; text-align: center; }
+    .hunate-mini-logo { max-width: 130px; margin: 0 auto var(--sp-lg); display: block; opacity: 0.95; }
+    .hunate-mini-label { font-family: 'Poppins', sans-serif; font-size: 0.7rem; letter-spacing: 0.22em; color: var(--hunate-prana); text-transform: uppercase; font-weight: 500; margin-bottom: var(--sp-sm); }
+    .hunate-mini-title { font-family: 'Playfair Display', serif; font-weight: 700; font-size: clamp(1.8rem, 4vw, 2.6rem); margin-bottom: var(--sp-lg); }
     .hunate-mini-title em { color: var(--hunate-prana); font-style: italic; font-weight: 500; }
-    .hunate-mini-body { max-width: 600px; margin: 0 auto var(--sp-xl); font-size: 1.02rem; line-height: 1.85; color: var(--charcoal); }
+    .hunate-mini-body { max-width: 580px; margin: 0 auto var(--sp-md); font-size: 1rem; line-height: 1.85; color: var(--charcoal); }
     .hunate-mini-body strong { color: var(--hunate-prana); font-weight: 600; }
-    .hunate-mini-buttons {
-      display: flex; justify-content: center; gap: var(--sp-lg);
-      flex-wrap: wrap; margin-top: var(--sp-2xl);
-    }
-    .hunate-mini-buttons a {
-      display: inline-flex; align-items: center; gap: var(--sp-md);
-      padding: 13px 26px; font-family: 'Poppins', sans-serif;
-      font-size: 0.92rem; font-weight: 500; text-decoration: none;
-      border-radius: var(--r-md); transition: 0.3s;
-    }
+    .hunate-mini-buttons { display: flex; justify-content: center; gap: var(--sp-md); flex-wrap: wrap; margin-top: var(--sp-xl); }
+    .hunate-mini-buttons a { display: inline-flex; align-items: center; gap: var(--sp-md); padding: 12px 24px; font-family: 'Poppins', sans-serif; font-size: 0.92rem; font-weight: 500; text-decoration: none; border-radius: var(--r-md); transition: 0.3s; }
     .hunate-mini-buttons a svg { width: 18px; height: 18px; fill: currentColor; }
-    .hunate-mini-learn {
-      background: transparent; color: var(--hunate-prana);
-      border: 1px solid var(--hunate-prana);
-    }
-    .hunate-mini-learn:hover {
-      background: var(--hunate-prana); color: #fff; transform: translateY(-2px);
-    }
-    .hunate-mini-join {
-      background: var(--hunate-prana); color: #fff;
-      border: 1px solid var(--hunate-prana);
-    }
-    .hunate-mini-join:hover {
-      background: var(--hunate-akasha); border-color: var(--hunate-akasha);
-      transform: translateY(-2px); box-shadow: 0 14px 30px rgba(184,58,45,0.28);
-    }
+    .hunate-mini-learn { background: transparent; color: var(--hunate-prana); border: 1px solid var(--hunate-prana); }
+    .hunate-mini-learn:hover { background: var(--hunate-prana); color: #fff; transform: translateY(-2px); }
+    .hunate-mini-join { background: var(--hunate-prana); color: #fff; border: 1px solid var(--hunate-prana); }
+    .hunate-mini-join:hover { background: var(--hunate-akasha); border-color: var(--hunate-akasha); transform: translateY(-2px); box-shadow: 0 14px 30px rgba(184,58,45,0.28); }
 
     /* Connect */
-    #connect { background: var(--beige); padding: var(--sp-5xl) 0 var(--sp-4xl); }
-    .connect-head { text-align: center; margin-bottom: var(--sp-3xl); }
+    #connect { background: var(--ivory); padding: var(--sp-5xl) 0 var(--sp-4xl); }
+    .connect-head { text-align: center; margin-bottom: var(--sp-2xl); }
     .connect-head h2 em { color: var(--pink-deep); font-style: italic; }
-    .connect-sub { max-width: 580px; margin: 0 auto var(--sp-2xl); font-size: 1.02rem; color: var(--charcoal); }
-
-    /* Work With Me block */
-    .work-block {
-      background: var(--ivory); padding: var(--sp-2xl);
-      margin-bottom: var(--sp-2xl);
-      border-left: 3px solid var(--pink);
-      border-radius: 0 var(--r-md) var(--r-md) 0;
-    }
-    .work-block h3 { font-size: 1.5rem; margin-bottom: var(--sp-md); }
+    .connect-sub { max-width: 560px; margin: 0 auto var(--sp-xl); font-size: 1rem; color: var(--charcoal); }
+    .work-block { background: var(--beige); padding: var(--sp-xl) var(--sp-2xl); margin-bottom: var(--sp-xl); border-left: 3px solid var(--pink); border-radius: 0 var(--r-md) var(--r-md) 0; }
+    .work-block h3 { font-size: 1.4rem; margin-bottom: var(--sp-sm); }
     .work-block h3 em { color: var(--pink-deep); font-style: italic; }
-    .work-block p { font-size: 1rem; line-height: 1.85; color: var(--charcoal); margin-bottom: var(--sp-lg); }
-    .work-block ul { list-style: none; margin: var(--sp-md) 0; }
-    .work-block ul li {
-      padding: 6px 0 6px 22px; position: relative;
-      font-size: 0.96rem; color: var(--charcoal);
-    }
-    .work-block ul li::before {
-      content: '✦'; position: absolute; left: 0;
-      color: var(--pink); font-size: 0.85rem; top: 8px;
-    }
+    .work-block p { font-size: 0.98rem; line-height: 1.85; color: var(--charcoal); margin-bottom: var(--sp-md); }
+    .work-block ul { list-style: none; margin: var(--sp-sm) 0; }
+    .work-block ul li { padding: 5px 0 5px 22px; position: relative; font-size: 0.94rem; color: var(--charcoal); }
+    .work-block ul li::before { content: '✦'; position: absolute; left: 0; color: var(--pink); font-size: 0.85rem; top: 7px; }
 
-    /* Direct contact buttons */
-    .contact-direct { display: flex; justify-content: center; gap: var(--sp-lg); flex-wrap: wrap; margin: var(--sp-3xl) 0 var(--sp-2xl); }
-    .contact-direct a {
-      display: inline-flex; align-items: center; gap: var(--sp-md);
-      padding: 14px 28px; text-decoration: none;
-      font-size: 0.92rem; font-weight: 500;
-      border: 1px solid; border-radius: var(--r-md);
-      letter-spacing: 0.02em;
-      transition: transform 0.3s, background 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
-    }
+    /* Direct contact */
+    .contact-direct { display: flex; justify-content: center; gap: var(--sp-md); flex-wrap: wrap; margin: var(--sp-2xl) 0 var(--sp-xl); }
+    .contact-direct a { display: inline-flex; align-items: center; gap: var(--sp-md); padding: 13px 26px; text-decoration: none; font-size: 0.92rem; font-weight: 500; border: 1px solid; border-radius: var(--r-md); letter-spacing: 0.02em; transition: transform 0.3s, background 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s; }
     .contact-direct a svg { width: 18px; height: 18px; fill: currentColor; }
     .contact-direct a.wa-link { background: #25D366; color: #fff; border-color: #25D366; }
     .contact-direct a.wa-link:hover { background: #1da851; border-color: #1da851; transform: translateY(-2px); box-shadow: 0 12px 30px rgba(37,211,102,0.28); }
@@ -543,16 +351,9 @@
     .contact-direct a.email-link:hover { background: var(--pink-deep); border-color: var(--pink-deep); transform: translateY(-2px); box-shadow: 0 12px 30px rgba(232,88,120,0.30); }
 
     /* Personal socials */
-    .socials-head { text-align: center; font-family: 'Poppins', sans-serif; font-size: 0.72rem; letter-spacing: 0.22em; color: var(--pink-deep); text-transform: uppercase; font-weight: 500; margin: var(--sp-2xl) 0 var(--sp-md); }
-    .socials { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--sp-md); margin-bottom: var(--sp-2xl); }
-    .social-link {
-      display: inline-flex; align-items: center; gap: var(--sp-md);
-      padding: 12px 22px; background: var(--ivory);
-      border: 1px solid rgba(255,143,163,0.30);
-      border-radius: var(--r-md);
-      color: var(--charcoal); text-decoration: none; font-size: 0.88rem;
-      transition: 0.3s;
-    }
+    .socials-head { text-align: center; font-family: 'Poppins', sans-serif; font-size: 0.7rem; letter-spacing: 0.22em; color: var(--pink-deep); text-transform: uppercase; font-weight: 500; margin: var(--sp-xl) 0 var(--sp-md); }
+    .socials { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--sp-md); margin-bottom: var(--sp-lg); }
+    .social-link { display: inline-flex; align-items: center; gap: var(--sp-md); padding: 11px 20px; background: var(--beige); border: 1px solid rgba(255,143,163,0.30); border-radius: var(--r-md); color: var(--charcoal); text-decoration: none; font-size: 0.86rem; transition: 0.3s; }
     .social-link:hover { transform: translateY(-2px); }
     .social-link svg { width: 16px; height: 16px; fill: currentColor; }
     .social-link[data-platform="youtube"]:hover  { background: #FF0000; color: #fff; border-color: #FF0000; }
@@ -561,52 +362,36 @@
     .social-link[data-platform="linkedin"]:hover { background: #0A66C2; color: #fff; border-color: #0A66C2; }
     .social-link[data-platform="tiktok"]:hover   { background: #000; color: #fff; border-color: #000; }
 
-    /* Footer - separate ivory background */
-    .site-footer {
-      background: var(--ivory);
-      padding: var(--sp-3xl) 0 var(--sp-2xl);
-      border-top: 1px solid rgba(255,143,163,0.30);
-      text-align: center;
-    }
-    .site-footer .privacy {
-      font-size: 0.85rem; color: var(--charcoal);
-      text-decoration: none;
-      border-bottom: 1px solid var(--pink); padding-bottom: 1px;
-    }
+    /* Footer */
+    .site-footer { background: var(--beige); padding: var(--sp-2xl) 0 var(--sp-xl); border-top: 1px solid rgba(255,143,163,0.30); text-align: center; }
+    .site-footer .privacy { font-size: 0.84rem; color: var(--charcoal); text-decoration: none; border-bottom: 1px solid var(--pink); padding-bottom: 1px; }
     .site-footer .privacy:hover { color: var(--pink-deep); }
-    .site-footer .copy {
-      font-size: 0.78rem; color: var(--charcoal); opacity: 0.6;
-      margin-top: var(--sp-md); letter-spacing: 0.04em;
-    }
-    .site-footer .sig {
-      font-family: 'Passions Conflict', cursive;
-      font-size: 2.4rem; color: var(--pink-deep);
-      margin-top: var(--sp-md); line-height: 1;
-    }
+    .site-footer .copy { font-size: 0.76rem; color: var(--charcoal); opacity: 0.65; margin-top: var(--sp-sm); letter-spacing: 0.04em; }
+    .site-footer .sig { font-family: 'Passions Conflict', cursive; font-size: 2.4rem; color: var(--pink-deep); margin-top: var(--sp-sm); line-height: 1; }
 
     /* Responsive */
     @media (max-width: 980px) {
       .cat-grid { grid-template-columns: repeat(2, 1fr); }
-      .how-we-work-grid { grid-template-columns: 1fr; gap: var(--sp-xl); }
+      .how-we-work-grid { grid-template-columns: 1fr; gap: var(--sp-lg); }
     }
     @media (max-width: 720px) {
       .nav-links { display: none; }
       .burger { display: flex; }
-      :root { --sp-5xl: 110px; --sp-4xl: 72px; --sp-3xl: 48px; --sp-2xl: 32px; }
+      :root { --sp-5xl: 76px; --sp-4xl: 56px; --sp-3xl: 40px; --sp-2xl: 26px; }
       .container, .container-narrow { padding: 0 var(--sp-xl); }
       .cat-grid { grid-template-columns: 1fr; }
       .hero-photo { width: 160px; height: 160px; }
-      .hero-content { padding: var(--sp-3xl) 0 var(--sp-4xl); }
+      .hero-content { padding: var(--sp-3xl) 0 var(--sp-3xl); }
       .scroll-hint { display: none; }
     }
     @media (max-width: 480px) {
-      .studio-cta-buttons { flex-direction: column; align-items: stretch; }
-      .studio-cta-buttons a { text-align: center; justify-content: center; }
+      .studio-cta-wa-row { flex-direction: column; align-items: stretch; }
+      .studio-cta-wa-row a { justify-content: center; }
       .contact-direct { flex-direction: column; align-items: stretch; }
-      .contact-direct a { text-align: center; justify-content: center; }
+      .contact-direct a { justify-content: center; }
       .hunate-mini-buttons { flex-direction: column; align-items: stretch; }
-      .hunate-mini-buttons a { text-align: center; justify-content: center; }
-      .me-cta { width: 100%; justify-content: center; }
+      .hunate-mini-buttons a { justify-content: center; }
+      .me-cta, .hero-cta { width: 100%; justify-content: center; }
     }
   </style>
 </head>
@@ -623,12 +408,12 @@
     <a href="#hero" class="brand">Ganga <em>/</em> Merina</a>
     <nav aria-label="Primary navigation">
       <ul class="nav-links">
-        <li><a href="#story">Story</a></li>
         <li><a href="#studio">Studio</a></li>
-        <li><a href="#meryels">Merry El's</a></li>
+        <li><a href="#meryels">Mery El's</a></li>
+        <li><a href="#story">Story</a></li>
+        <li><a href="#rawtalk">RAW TALK</a></li>
         <li><a href="#movement">Movement</a></li>
         <li><a href="#connect">Connect</a></li>
-        <!-- TODO: Replace # with Google Form URL once form is ready -->
         <li><a href="https://forms.gle/SafYL3pRKvgo1sdPA" target="_blank" rel="noopener" class="book">Book a Call</a></li>
       </ul>
     </nav>
@@ -639,12 +424,12 @@
 </header>
 
 <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
-  <a href="#story">Story</a>
   <a href="#studio">Studio</a>
-  <a href="#meryels">Merry El's</a>
+  <a href="#meryels">Mery El's</a>
+  <a href="#story">Story</a>
+  <a href="#rawtalk">RAW TALK</a>
   <a href="#movement">Movement</a>
   <a href="#connect">Connect</a>
-  <!-- TODO: Replace # with Google Form URL once form is ready -->
   <a href="https://forms.gle/SafYL3pRKvgo1sdPA" target="_blank" rel="noopener" class="book">Book a Call</a>
 </nav>
 
@@ -656,6 +441,9 @@
     <p class="hero-cursive reveal delay-2">living with purpose</p>
     <p class="hero-pillars reveal delay-3">Empath <span>·</span> Creator <span>·</span> Caretaker</p>
     <p class="hero-roles reveal delay-3">Podcast Host <span>·</span> Owner of Mery El's <span>·</span> Co-Founder of Mery &amp; Khem Studio</p>
+    <a href="https://forms.gle/SafYL3pRKvgo1sdPA" target="_blank" rel="noopener" class="hero-cta reveal delay-3">
+      Book a Discovery Call &nbsp;→
+    </a>
   </div>
   <div class="scroll-hint" aria-hidden="true">
     <span>Scroll</span>
@@ -663,109 +451,7 @@
   </div>
 </section>
 
-<!-- STORY -->
-<section id="story" class="section-pad">
-  <div class="container-narrow">
-    <div class="story-head reveal">
-      <span class="label label-line">01 &nbsp;·&nbsp; My Story</span>
-    </div>
-
-    <!-- 1. Hello -->
-    <div class="story-block reveal">
-      <h2>Hello</h2>
-      <p>I am <strong>Merina / Ganga</strong> from Damak, Nepal, a young woman deeply curious about the wonders and mysteries of life. That curiosity has carried me through some of the most intense seasons a person can face.</p>
-      <p>I come from a lower-middle-class family where we have always had to work constantly just to keep things moving forward. Within all of it, my family and I have found peace, gratitude, and beauty in the life we have right now.</p>
-      <div class="story-quote">I hope this does not read as complaint or a search for sympathy. This is my truth. We have found reasons to wake up, smile, and look toward the future.</div>
-    </div>
-
-    <div class="floral-divider"><span>✦</span></div>
-
-    <!-- 2. From the Stage -->
-    <div class="story-block reveal">
-      <h2>From the Stage</h2>
-      <p>In a different chapter, when my whole family was healthy and together, I was free to fly.</p>
-      <p>I learned dancing and fashion, won <strong>Purwanchal Miss Bishwakarma</strong> and was <strong>1st Runner-up of Miss Damak</strong>, choreographed performances, taught dance in schools, and judged pageants. Life felt limitless.</p>
-    </div>
-
-    <div class="floral-divider"><span>✦</span></div>
-
-    <!-- 3. Meeting Khem & The Joon Project -->
-    <div class="story-block reveal">
-      <h2>Meeting Khem &amp; The Joon Project</h2>
-      <p>Around this same time I also met <strong>Khem</strong>, and together we began working on <strong>The Joon Project</strong>, which today is the <strong>Hunate Movement</strong>.</p>
-      <p>For years, we ran community work side by side. Volunteering at orphanages, organising activities for local children, hosting art and craft workshops, running events for international volunteers, and researching how social systems and natural laws could be restructured for a better future. It was a season of building, learning, and trying to change the small piece of the world we were standing on.</p>
-    </div>
-
-    <div class="floral-divider"><span>✦</span></div>
-
-    <!-- 4. Then Life Turned -->
-    <div class="story-block reveal">
-      <h2>Then Life Turned</h2>
-      <p>Then everything changed.</p>
-      <p>Since my father's hit-and-run accident, our family's life turned. He has been bedridden and in a coma for almost three years, requiring constant care, feeding, cleaning, and nursing. My mother and I work around the clock to sustain him. My younger brother is abroad, working incredibly hard to support our family. We carry loans and the daily weight, and for the past three years I have not left my father's bedside.</p>
-      <p>I sometimes feel "late" in life, watching friends on social media get married, travel, build careers. But despite those moments of doubt, I do my best. I tell life: <em>it is okay.</em></p>
-      <div class="story-quote">Life happens as it has to. All we must do is work, for ourselves, our family, our community, nature, and the future. Share what we have in excess. See beauty in all things. Ask for help when we need it. Stay positive. Life will give us what we need if we remain humble and grateful.</div>
-    </div>
-
-    <div class="floral-divider"><span>✦</span></div>
-
-    <!-- 5. Choosing Kindness Over Complaint -->
-    <div class="story-block reveal">
-      <h2>Choosing Kindness Over Complaint</h2>
-      <p>I see many people comparing themselves to others or complaining about what they lack. As an empath, I feel these things deeply, but I try never to harm anyone or add to the noise. I stay humble, trusting that we each arrive where we are supposed to be when the time is right.</p>
-      <p>My father's accident taught me this. He was the kindest man I have ever known, and yet life still gave him, and all of us, this struggle. It showed me that life does not care who is "good" or "bad." Life simply happens. Perhaps that is what <em>Maya</em> means.</p>
-      <p>Rather than complaining, I would rather understand it. We can all still choose to be kind, loving, and caring in this beautiful, fleeting life.</p>
-    </div>
-
-    <div class="floral-divider"><span>✦</span></div>
-
-    <!-- 6. Building Merry El's -->
-    <div class="story-block reveal">
-      <h2>Building Mery El's</h2>
-      <p>While caring for my father, I started <strong>Mery El's, Pinch of Style</strong>, an online store offering 18K gold-plated jewelry. It was my way of building something, on my own time, that could grow alongside my caregiving. The early support from friends, neighbours, and strangers across the world gave me the courage to keep going.</p>
-      <div class="story-cta-wrap">
-      </div>
-    </div>
-
-    <div class="floral-divider"><span>✦</span></div>
-
-    <!-- 7. Sharing the Journey -->
-    <div class="story-block reveal">
-      <h2>Sharing the Journey</h2>
-      <p>I also began creating content, sharing my journey honestly, the good days and the hard ones. People from around the world reached out with support for my father's treatment. Because of that kindness we were able to take him to Siliguri and Delhi for care, and I will always be grateful.</p>
-      <p>That kindness fuels me every day. It reminds me to become a better version of myself, someone capable of helping others when they need it. No one's pain is inherently bigger than another's. Struggle is often a matter of perspective. Some take it as a reason for anger. I take it as a reason to grow.</p>
-    </div>
-
-    <div class="floral-divider"><span>✦</span></div>
-
-    <!-- 8. RAW TALK -->
-    <div class="story-block reveal">
-      <h2>RAW TALK<span class="sub">thoughts of ordinary</span></h2>
-      <p>From sharing online, the conversation naturally grew. I started <strong>RAW TALK</strong>, a YouTube podcast with my dear friend <strong>Khem</strong>, a man of deep, multi-traditional knowledge spanning Ayurveda, permaculture, systems thinking, and ethical leadership.</p>
-      <p>It is an honest, unfiltered conversation about life, work, systems, and the inner search. Real, raw, ordinary. New episodes when the conversation calls for it. Khem helped me find my purpose and overcome limiting mental patterns. If something in you is also searching for a new direction, you can know him too at <a href="https://khemrajpradhan.com.np" target="_blank" rel="noopener">khemrajpradhan.com.np</a>.</p>
-      <div class="story-cta-wrap">
-        <a href="https://www.youtube.com/@merinabishwakarma" target="_blank" rel="noopener" class="story-cta watch" aria-label="Watch RAW TALK on YouTube">
-          <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-          Watch on YouTube
-        </a>
-      </div>
-    </div>
-
-    <div class="floral-divider"><span>✦</span></div>
-
-    <!-- 9. A New Chapter -->
-    <div class="story-block reveal">
-      <h2>A New Chapter</h2>
-      <p>Recently, together with Khem, I co-founded <strong>Mery &amp; Khem</strong>, a brand, digital, and life studio in Damak. It carries everything we have learned about life, work, and people into one place. We help individuals, families, businesses, and organisations across Nepal and beyond stop scattering their work across ten different vendors and start building one coherent life and brand instead.</p>
-      <p>If your work, brand, or life feels scattered, our studio might be the place for you.</p>
-      <div class="story-cta-wrap">
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- MERY & KHEM STUDIO -->
+<!-- STUDIO - promoted to section 2 -->
 <section id="studio">
   <div class="container">
 
@@ -777,7 +463,7 @@
     </div>
 
     <div class="studio-intro reveal delay-1">
-      <p>Together with <strong>Khem</strong>, I run <strong>Mery &amp; Khem</strong>, a brand, digital, and life studio based in Damak, Nepal.</p>
+      <p>Together with <strong>Khem</strong>, I run <strong>Mery &amp; Khem</strong>, a brand, digital, and life studio in Damak, Nepal.</p>
 
       <p>Most people end up hiring one person for branding, another for social media, another for the website, another for content, another for business advice, another for legal, another for personal guidance. The pieces never talk to each other. The brand drifts. The story fragments. Everyone spends more time managing the vendors than doing the work. After three months, no one remembers what the original vision was.</p>
 
@@ -785,7 +471,7 @@
 
       <p>We work alongside individuals, families, businesses, and organisations who want their life, work, and presence to fit together, not be assembled piece by piece by people who do not know each other.</p>
 
-      <p>Some people come to us for branding. Some come because their business has plateaued. Some come for personal guidance, family decisions, or to think through the next chapter of their life. Many come for one thing and discover the work is connected to something deeper. We take all of it as one piece of work, because in real life it is one piece of work.</p>
+      <p>Some come to us for branding. Some come because their business has plateaued. Some come for personal guidance, family decisions, or to think through the next chapter of their life. Many come for one thing and discover the work is connected to something deeper. We take all of it as one piece of work, because in real life it is one piece of work.</p>
     </div>
 
     <p class="studio-tagline-strong reveal">One studio. One team. One long relationship.</p>
@@ -830,12 +516,13 @@
 
     <div class="studio-cta reveal">
       <h3>How to Start</h3>
-      <p class="lead-text">Reach out on WhatsApp for a quick conversation, or book a discovery call when you are ready to talk about your project in detail.</p>
-      <div class="studio-cta-buttons">
-        <!-- TODO: Replace # with Google Form URL once Mery & Khem booking form is ready -->
-        <a href="https://forms.gle/SafYL3pRKvgo1sdPA" target="_blank" rel="noopener" class="studio-cta-book" aria-label="Book a discovery call">
-          Book a Discovery Call  &nbsp;→
+      <p class="lead-text">Book a discovery call when you are ready to talk through your project, or reach us directly on WhatsApp for a quick conversation first.</p>
+      <div class="studio-cta-primary-row">
+        <a href="https://forms.gle/SafYL3pRKvgo1sdPA" target="_blank" rel="noopener" class="studio-cta-book">
+          Book a Discovery Call &nbsp;→
         </a>
+      </div>
+      <div class="studio-cta-wa-row">
         <a href="https://wa.me/9779817928622" target="_blank" rel="noopener" class="studio-cta-wa" aria-label="Message Merina on WhatsApp">
           <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
           Message Merina
@@ -862,27 +549,27 @@
   </div>
 </section>
 
-<!-- MERRY EL'S - simplified visual block -->
+<!-- MERY EL'S -->
 <section id="meryels">
   <div class="container-narrow">
-    <img src="images/Logo_v2_BG_FREE.png" alt="Merry El's, Pinch of Style" class="me-logo reveal">
+    <img src="images/Logo_v2_BG_FREE.png" alt="Mery El's, Pinch of Style" class="me-logo reveal">
     <p class="me-caption reveal delay-1">a brand by Merina</p>
     <div class="me-divider reveal"></div>
     <p class="me-intro reveal">An online jewelry store offering 18K gold-plated pieces, made for everyday wear and special occasions. Curated to feel quietly luxurious, designed to last.</p>
-    <a href="https://wa.me/9779761000626" target="_blank" rel="noopener" class="me-cta reveal" aria-label="Shop Merry El's on WhatsApp">
+    <a href="https://wa.me/9779761000626" target="_blank" rel="noopener" class="me-cta reveal" aria-label="Shop Mery El's on WhatsApp">
       <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
       Shop on WhatsApp
     </a>
     <div class="me-socials reveal">
-      <a href="https://www.facebook.com/meryels.pinchofstyle" target="_blank" rel="noopener" data-platform="facebook" aria-label="Merry El's on Facebook">
+      <a href="https://www.facebook.com/meryels.pinchofstyle" target="_blank" rel="noopener" data-platform="facebook" aria-label="Mery El's on Facebook">
         <svg viewBox="0 0 24 24"><path d="M9.198 21.5h4v-8.01h3.604l.396-3.98h-4V7.5a1 1 0 0 1 1-1h3v-4h-3a5 5 0 0 0-5 5v2.01h-2l-.396 3.98h2.396v8.01Z"/></svg>
         Facebook
       </a>
-      <a href="https://www.instagram.com/meryels.pinchofstyle/" target="_blank" rel="noopener" data-platform="instagram" aria-label="Merry El's on Instagram">
+      <a href="https://www.instagram.com/meryels.pinchofstyle/" target="_blank" rel="noopener" data-platform="instagram" aria-label="Mery El's on Instagram">
         <svg viewBox="0 0 24 24"><path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/></svg>
         Instagram
       </a>
-      <a href="https://www.tiktok.com/@meryelspinchofstyle" target="_blank" rel="noopener" data-platform="tiktok" aria-label="Merry El's on TikTok">
+      <a href="https://www.tiktok.com/@meryelspinchofstyle" target="_blank" rel="noopener" data-platform="tiktok" aria-label="Mery El's on TikTok">
         <svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.1z"/></svg>
         TikTok
       </a>
@@ -890,7 +577,56 @@
   </div>
 </section>
 
-<!-- HUNATE MOVEMENT - last, philosophical, link to Khem's site -->
+<!-- STORY - compressed to 3 chapters -->
+<section id="story">
+  <div class="container-narrow">
+    <div class="story-head reveal">
+      <span class="label">My Story</span>
+      <h2 class="h-lg">A Few Words About <em>Me</em></h2>
+    </div>
+
+    <div class="story-block reveal">
+      <h3>Hello</h3>
+      <p>I am <strong>Merina / Ganga</strong> from Damak, Nepal, a young woman deeply curious about the wonders and mysteries of life. I come from a lower-middle-class family where we have always had to work constantly just to keep things moving forward. Within all of it, my family and I have found peace, gratitude, and beauty in the life we have right now.</p>
+      <div class="story-quote">I hope this does not read as complaint or a search for sympathy. This is my truth. We have found reasons to wake up, smile, and look toward the future.</div>
+    </div>
+
+    <div class="floral-divider"><span>✦</span></div>
+
+    <div class="story-block reveal">
+      <h3>The Journey</h3>
+      <p>In a healthier chapter, I was free to fly. I learned dancing and fashion, won <strong>Purwanchal Miss Bishwakarma</strong> and was <strong>1st Runner-up of Miss Damak</strong>, choreographed performances, taught dance, and judged pageants. Around the same time, I met <strong>Khem</strong>, and together we ran <strong>The Joon Project</strong>, which today is the Hunate Movement. We volunteered at orphanages, organised activities for local children, hosted art workshops, ran events for international volunteers, and researched how social systems could be restructured for a better future.</p>
+      <p>Then everything changed. Since my father's hit-and-run accident, I have not left his bedside in almost three years. He is bedridden and in a coma. My mother and I work around the clock to sustain him. My younger brother is abroad, supporting us. We carry loans, and we keep going.</p>
+      <p>I have learned, through this, that life does not care who is "good" or "bad." Life simply happens. Perhaps that is what <em>Maya</em> means. So rather than complaining, I choose to understand, and to stay kind, loving, and grateful in this beautiful, fleeting life.</p>
+    </div>
+
+    <div class="floral-divider"><span>✦</span></div>
+
+    <div class="story-block reveal">
+      <h3>What I'm Building Now</h3>
+      <p>While caring for my father, I started <strong>Mery El's, Pinch of Style</strong>, an online 18K gold-plated jewelry store. I began creating content honestly. The kindness of strangers around the world helped me take my father to Siliguri and Delhi for treatment, and I will always be grateful.</p>
+      <p>From there, I started <strong>RAW TALK</strong>, a podcast with Khem about life, work, systems, and the inner search. Recently, we co-founded <strong>Mery &amp; Khem</strong>, a brand, digital, and life studio in Damak that helps individuals, families, businesses, and organisations across Nepal build one coherent life and brand instead of scattering their work across ten different vendors.</p>
+      <p>Khem helped me find my purpose and overcome limiting mental patterns. If something in you is also searching for a new direction, you can know him too at <a href="https://khemrajpradhan.com.np" target="_blank" rel="noopener">khemrajpradhan.com.np</a>.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- RAW TALK - own section, Lavender accent -->
+<section id="rawtalk">
+  <div class="container-narrow">
+    <p class="rt-label reveal">Podcast</p>
+    <h2 class="rt-title reveal delay-1">RAW TALK</h2>
+    <p class="rt-subtitle reveal delay-1">thoughts of ordinary</p>
+    <p class="rt-body reveal delay-2">Honest, unfiltered conversations with Khem about life, work, systems, and the inner search. Real, raw, ordinary. New episodes when the conversation calls for it.</p>
+    <a href="https://www.youtube.com/@merinabishwakarma" target="_blank" rel="noopener" class="rt-cta reveal delay-3" aria-label="Watch RAW TALK on YouTube">
+      <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      Watch on YouTube
+    </a>
+  </div>
+</section>
+
+<!-- HUNATE MOVEMENT -->
 <section id="movement">
   <div class="container-narrow">
     <img src="images/hunate_movement.png" alt="Hunate Movement" class="hunate-mini-logo reveal">
@@ -904,7 +640,7 @@
     </p>
     <div class="hunate-mini-buttons reveal">
       <a href="https://khemrajpradhan.com.np/#movement" target="_blank" rel="noopener" class="hunate-mini-learn">
-        Learn on Khem's Site  &nbsp;→
+        Learn on Khem's Site &nbsp;→
       </a>
       <a href="https://wa.me/9779816860282" target="_blank" rel="noopener" class="hunate-mini-join" aria-label="Join the Hunate Movement on WhatsApp">
         <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
@@ -918,14 +654,14 @@
 <section id="connect">
   <div class="container-narrow">
     <div class="connect-head reveal">
-      <span class="label label-line">05 &nbsp;·&nbsp; Connect</span>
-      <h2 class="h-lg" style="margin: var(--sp-md) 0 var(--sp-lg);">Let's <em>Create Together</em></h2>
-      <p class="connect-sub">Whether you have a project, a podcast idea, or just want to say hello, I would love to hear from you. Here is everything in one place.</p>
+      <span class="label">Connect</span>
+      <h2 class="h-lg" style="margin-top: var(--sp-sm);">Let's <em>Create Together</em></h2>
+      <p class="connect-sub">Whether you have a project, a podcast idea, or just want to say hello, I would love to hear from you.</p>
     </div>
 
     <div class="work-block reveal">
       <h3><em>Work</em> With Me</h3>
-      <p>I am actively open to meaningful collaborations. If something below sounds like a fit, reach out on WhatsApp or email and we will take it from there.</p>
+      <p>I am actively open to meaningful collaborations. If something below sounds like a fit, reach out on WhatsApp or email.</p>
       <ul>
         <li>Brand partnerships, sponsorships, and product collaborations</li>
         <li>Content creation across Instagram, TikTok, YouTube, and Facebook</li>
@@ -973,7 +709,7 @@
   </div>
 </section>
 
-<!-- FOOTER - separate ivory background so pink signature pops -->
+<!-- FOOTER -->
 <footer class="site-footer">
   <div class="container-narrow">
     <a href="privacy.html" class="privacy">Privacy Policy</a>
