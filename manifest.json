@@ -1,11 +1,11 @@
 {
   "name": "Ganga Merina Bishwakarma",
   "short_name": "Ganga Merina",
-  "description": "Official website of Ganga (Merina) Bishwakarma — Host of RAW TALK & Founder of Merry El's from Damak, Nepal.",
+  "description": "Official website of Ganga (Merina) Bishwakarma — Host of RAW TALK, Founder of Merry El's, Co-founder of Mery & Khem. Damak, Nepal.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#FAF7F2",
-  "theme_color": "#C9A84C",
+  "background_color": "#F3D5B5",
+  "theme_color": "#FF8FA3",
   "orientation": "portrait-primary",
   "lang": "en",
   "icons": [
@@ -20,6 +20,11 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    },
+    {
+      "src": "images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
     }
   ]
 }
