@@ -5,69 +5,110 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Page Not Found | Ganga Bishwakarma</title>
   <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#F3D5B5">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-  <meta name="theme-color" content="#C9A84C">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,700;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Playfair+Display:ital,wght@0,700;1,500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #FAF7F2; --charcoal: #2A2A2A;
-      --gold: #C9A84C; --gold-lite: rgba(201,168,76,0.10);
-      --gold-border: rgba(201,168,76,0.28); --muted: #9A9A9A;
+      --beige: #F3D5B5;
+      --ivory: #FAF9F6;
+      --pink: #FF8FA3;
+      --charcoal: #2C2C2C;
+      --muted: #6B6B6B;
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; }
     body {
       font-family: 'Poppins', sans-serif;
-      background: var(--bg); color: var(--charcoal);
-      min-height: 100vh;
-      display: flex; align-items: center; justify-content: center;
-      text-align: center; padding: 40px 24px;
+      background: var(--beige);
+      color: var(--charcoal);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 24px;
+      -webkit-font-smoothing: antialiased;
     }
-    .container { max-width: 480px; width: 100%; }
-    .num {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(5rem, 20vw, 9rem);
-      font-weight: 700; color: var(--gold);
-      opacity: .18; line-height: 1; margin-bottom: -20px;
-      letter-spacing: -8px;
-    }
-    .icon {
-      font-size: 3.5rem; margin-bottom: 16px;
-    }
-    .sig {
-      font-family: 'Great Vibes', cursive;
-      font-size: 2rem; color: var(--gold); opacity: .75;
-      margin-bottom: 20px;
+    .wrap { max-width: 540px; }
+    .label {
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      color: var(--pink);
+      text-transform: uppercase;
+      font-weight: 500;
+      margin-bottom: 22px;
     }
     h1 {
       font-family: 'Playfair Display', serif;
-      font-size: 1.7rem; margin-bottom: 14px;
+      font-size: clamp(5rem, 18vw, 9rem);
+      font-weight: 700;
+      line-height: 0.95;
+      color: var(--charcoal);
+      margin-bottom: 6px;
+      letter-spacing: -0.02em;
+    }
+    h1 em { color: var(--pink); font-style: italic; font-weight: 500; }
+    .cursive {
+      font-family: 'Passions Conflict', cursive;
+      font-size: clamp(2.4rem, 7vw, 3.6rem);
+      color: var(--pink);
+      line-height: 1;
+      margin-bottom: 28px;
+    }
+    .divider {
+      width: 42px;
+      height: 2px;
+      background: var(--pink);
+      margin: 0 auto 30px;
     }
     p {
-      font-size: .9rem; color: #666;
-      line-height: 1.7; margin-bottom: 32px;
+      font-size: 0.98rem;
+      line-height: 1.85;
+      color: var(--charcoal);
+      margin-bottom: 40px;
+      max-width: 440px;
+      margin-left: auto;
+      margin-right: auto;
     }
     .btn {
-      display: inline-flex; align-items: center; gap: 8px;
-      background: var(--charcoal); color: #fff;
-      text-decoration: none; padding: 13px 28px;
-      border-radius: 8px; font-weight: 600; font-size: .87rem;
-      transition: background .25s, transform .2s;
+      display: inline-block;
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.92rem;
+      font-weight: 500;
+      text-decoration: none;
+      background: var(--charcoal);
+      color: var(--ivory);
+      padding: 14px 30px;
+      border-radius: 4px;
+      transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
     }
-    .btn:hover { background: var(--gold); color: var(--charcoal); transform: translateY(-2px); }
+    .btn:hover {
+      background: var(--pink);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(255,143,163,0.30);
+    }
+    .quiet {
+      margin-top: 28px;
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="num">404</div>
-    <div class="icon">🌸</div>
-    <div class="sig">oops, lost in the journey</div>
-    <h1>Page Not Found</h1>
-    <p>The page you're looking for doesn't exist or may have been moved. Let's take you back home.</p>
+  <div class="wrap">
+    <p class="label">Page Not Found</p>
+    <h1>4<em>0</em>4</h1>
+    <p class="cursive">lost in the journey</p>
+    <div class="divider"></div>
+    <p>The page you are looking for doesn't exist or may have been moved. Let me take you back home.</p>
     <a href="/" class="btn">← Back to Home</a>
+    <p class="quiet">Damak, Nepal &nbsp;·&nbsp; Ganga / Merina Bishwakarma</p>
   </div>
 </body>
 </html>
